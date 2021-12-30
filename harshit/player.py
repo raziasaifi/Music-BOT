@@ -16,20 +16,20 @@ from typing import Callable
 from pyrogram import Client, filters
 from pyrogram.types import Message, Voice, InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.errors import UserAlreadyParticipant
-from modules.cache.admins import set
-from modules.clientbot import clientbot, queues
-from modules.clientbot.clientbot import client as USER
-from modules.helpers.admins import get_administrators
+from rocks.cache.admins import set
+from rocks.clientbot import clientbot, queues
+from rocks.clientbot.clientbot import client as USER
+from rocks.helpers.admins import get_administrators
 from youtube_search import YoutubeSearch
-from modules import converter
-from modules.downloaders import youtube
-from modules.config import DURATION_LIMIT, que, SUDO_USERS
-from modules.cache.admins import admins as a
-from modules.helpers.filters import command, other_filters
-from modules.helpers.command import commandpro
-from modules.helpers.decorators import errors, authorized_users_only
-from modules.helpers.errors import DurationLimitError
-from modules.helpers.gets import get_url, get_file_name
+from rocks import converter
+from rocks.downloaders import youtube
+from rocks.config import DURATION_LIMIT, que, SUDO_USERS
+from rocks.cache.admins import admins as a
+from rocks.helpers.filters import command, other_filters
+from rocks.helpers.command import commandpro
+from rocks.helpers.decorators import errors, authorized_users_only
+from rocks.helpers.errors import DurationLimitError
+from rocks.helpers.gets import get_url, get_file_name
 from PIL import Image, ImageFont, ImageDraw
 from pytgcalls import StreamType
 from pytgcalls.types.input_stream import InputStream

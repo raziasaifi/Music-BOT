@@ -8,8 +8,8 @@
 import os
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from modules.helpers.filters import command, other_filters
-from modules.helpers.decorators import sudo_users_only, errors
+from rocks.helpers.filters import command, other_filters
+from rocks.helpers.decorators import sudo_users_only, errors
 
 downloads = os.path.realpath("downloads")
 raw_files = os.path.realpath("raw_files")

@@ -8,8 +8,8 @@
 import asyncio
 from time import time
 from datetime import datetime
-from modules.helpers.filters import command
-from modules.helpers.command import commandpro
+from rocks.helpers.filters import command
+from rocks.helpers.command import commandpro
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
