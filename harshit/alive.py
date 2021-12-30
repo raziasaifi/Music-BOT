@@ -54,48 +54,31 @@ async def start_(client: Client, message: Message):
 💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
 ᴅᴍ ᴛᴏ ᴍʏ [ʟᴇɢᴇɴᴅ ᴏᴡɴᴇʀ](https://t.me/Itz_Venom_xD) ...
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
-    reply_markup=InlineKeyboardMarkup(
+   reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "⚙️ ᴀᴅᴅ ᴀʟᴇxᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚙️",
-                        url=f"https://t.me/Asad_Music_Bot?startgroup=true",
-                    )
-                ],
-                [InlineKeyboardButton("👩‍💻 ʙᴇsᴛɪᴇ 👩‍💻", url=f"https://t.me/HarshitSharma361")],
-                [
-                    InlineKeyboardButton("📚 ᴜᴘᴅᴀᴛᴇs 📚", url=f"https://t.me/AsadSupport"),
-                    InlineKeyboardButton("💝 ʟᴏᴠᴇ 💝", url=f"https://t.me/A_S_NOLOVE"),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "👥 ɢʀᴏᴜᴘ 👥︎", url=f"https://t.me/t.me/Shayri_Music_Lovers"),
-                    InlineKeyboardButton(
-                        "❤ ʜᴇᴀʀᴛ ️❤️", url=f"https://t.me/Give_Me_Heart"),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "👑 kɪɴɢ 👑", url="https://t.me/Dr_Asad_Ali"
-                    )
-                ],
-            ]
+                        "➕ ❰ ᴀᴅᴅ ᴀʟᴇxᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❱ ➕", url=f"https://t.me/Asad_Music_Bot?startgroup=true")
+                ]
+                
+           ]
         ),
-        disable_web_page_preview=True,
     )
     
     
-@Client.on_message(commandpro(["/start", "/alive", "Song", "Music", "Alexa"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["/start", "/alive", "Alexa"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/b92ed11ca9259ec96aaee.jpg",
-        caption=f"""❤️ **ɪᴛᴛᴜ 🤏 sᴇʏ ᴘᴀɢᴀʟ ᴍᴇ ɪs ᴡᴏʀᴋɪɴɢ ᴘᴇʀғᴇᴄᴛʟʟʏ**""",
-        keyboard = InlineKeyboardMarkup(
-        [
+        caption=f"""""",
+        reply_markup=InlineKeyboardMarkup(
             [
-                InlineKeyboardButton("❤️ ᴏᴡɴᴇʀ ❤️", url=f"https://t.me/Dr_Asad_Ali"),
-                InlineKeyboardButton("👨‍‍👧‍👦 ɢʀᴏᴜᴘ 👨‍👧‍👦", url=f"https://t.me/Shayri_Music_Lovers"),
+                [
+                    InlineKeyboardButton(
+                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💞", url=f"https://t.me/Shayri_Music_Lovers")
+                ]
             ]
-        ]
+        ),
     )
 
 
@@ -104,11 +87,12 @@ async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/b92ed11ca9259ec96aaee.jpg",
         caption=f"""""",
-        keyboard = InlineKeyboardMarkup(
-        [
+        reply_markup=InlineKeyboardMarkup(
             [
-                InlineKeyboardButton("❤️ ʀᴇᴘᴏ ❤️", url=f"https://t.me/Dr_Asad_Ali"),
-                InlineKeyboardButton("👨‍‍👧‍👦 ᴊᴏɪɴ 👨‍👧‍👦", url=f"https://t.me/Shayri_Music_Lovers"),
+                [
+                    InlineKeyboardButton(
+                        "💥 ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://t.me/Dr_Asad_Ali")
+                ]
             ]
-        ]
+        ),
     )
