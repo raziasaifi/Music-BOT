@@ -62,7 +62,7 @@ async def start_(client: Client, message: Message):
                         url=f"https://t.me/Asad_Music_Bot?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("👩‍💻 ʙᴇsᴛɪᴇ 👩‍💻", url=f"https://t.me/HarshitSharma361"],
+                [InlineKeyboardButton("👩‍💻 ʙᴇsᴛɪᴇ 👩‍💻", url=f"https://t.me/HarshitSharma361")],
                 [
                     InlineKeyboardButton("📚 ᴜᴘᴅᴀᴛᴇs 📚", url=f"https://t.me/AsadSupport"),
                     InlineKeyboardButton("💝 ʟᴏᴠᴇ 💝", url=f"https://t.me/A_S_NOLOVE"),
