@@ -4,3 +4,10 @@
 # Copyright (C) 2021 By @Itz_VeNom_xD 
 # Copyright (C) 2021 By @Dr_Asad_Ali
 # Copyright (C) 2021 By @HarshitSharma361
+
+class DurationLimitError(Exception):
+    pass
+
+
+class FFmpegReturnCodeError(Exception):
+    pass
