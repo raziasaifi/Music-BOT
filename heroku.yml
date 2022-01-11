@@ -1,5 +1,5 @@
 build:
   docker:
-    worker: Abhimanyu
+    worker: Install
 run:
   worker: python3 -m rocks
