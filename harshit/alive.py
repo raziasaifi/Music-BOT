@@ -45,10 +45,10 @@ async def start_(client: Client, message: Message):
 💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ ᴀʟᴇxᴀ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴄʀᴇᴀᴛᴏʀ : [Asᴀᴅ ᴀʟɪ](https://t.me/Dr_Asad_Ali)
+┣★ ᴄʀᴇᴀᴛᴏʀ : [INNOCENT](https://t.me/I_N_N_O_C_E_N_T_786)
 ┣★ ᴜᴘᴅᴀᴛᴇs : [Aʟᴇxᴀ Sᴇʀᴠᴇʀ](https://t.me/AsadSupport)
 ┣★ sᴜᴘᴘᴏʀᴛ : [Aʟᴇxᴀ Cʜᴀᴛ](https://t.me/Shayri_Music_Lovers)
-┣★ ᴏᴡɴᴇʀ › : [Mʏ ʙʀᴏ](https://t.me/HarshitSharma361)
+┣★ ᴏᴡɴᴇʀ › : [Mʏ ʙʀᴏ](https://t.me/I_N_N_O_C_E_N_T_786)
 ┗━━━━━━━━━━━━━━━━━┛
 
 💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
